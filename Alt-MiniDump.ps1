@@ -1,18 +1,3 @@
-
-None selected 
-
-Skip to content
-Using Gmail with screen readers
-Meet
-New meeting
-Join a meeting
-Hangouts
-
-Conversations
-66.56 GB of 102 GB used
-Terms · Privacy · Program Policies
-Last account activity: 56 minutes ago
-Details
 # encoding: ascii
 # api: powershell
 # title: Write-MiniDump
@@ -110,5 +95,3 @@ function Write-MiniDump {
   end {
   }
 }
-minidump.txt
-Displaying minidump.txt.
