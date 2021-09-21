@@ -14,7 +14,7 @@ $encoding = new-object System.Text.AsciiEncoding;
 
 do
 {
-    $cmd = read-host
+    $cmd = read-host "PS> "
     $writer.WriteLine($cmd)
     $writer.Flush();
     if($cmd -eq "exit"){
