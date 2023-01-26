@@ -32,6 +32,7 @@ foreach ($ip in $ipAddresses) {
                 # Test the connection to the port
                 $socket = New-Object System.Net.Sockets.TcpClient
                 $socket.SendTimeout = 500
+                $socket.ReceiveTimeout = 500
                 try {
                     $socket.Connect($ip, $port)
                     if ($socket.Connected) {
